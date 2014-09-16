@@ -49,15 +49,18 @@ class LoginFormViewController: UIViewController {
         passwordField.resignFirstResponder()
         delay(2, closure: { () -> () in
             self.indicator.stopAnimating()
-            if (self.emailField.text == "sheta" && self.passwordField.text == "pass") {
-                  self.performSegueWithIdentifier("loginSegue", sender: self)
-                
-            } else if(self.emailField.text != "sheta" && self.emailField.text != "" && self.passwordField.text != "password" && self.passwordField.text != "") {
+           
+            if ((self.emailField.text != "sheta" && self.emailField.text != "") || (self.passwordField.text != "pass" && self.passwordField.text != "")){
                 UIAlertView(title: "Oops", message: "Wrong email or password!", delegate: nil, cancelButtonTitle: "OK").show()
+            } else if (self.emailField.text == "" || self.passwordField.text == ""){
+                UIAlertView(title: "Oops", message: "Empty Email or Password!", delegate: nil, cancelButtonTitle: "OK").show()
+            }else{
+                self.performSegueWithIdentifier("loginSegue", sender: self)
             }
-            if(self.emailField.text == "" || self.passwordField == "") {
-                UIAlertView(title: "Missing Info", message: "You need to fill out all fields!", delegate: nil, cancelButtonTitle: "OK").show()
-            }
+            
+            
+            
+            
         })
     }
     
