@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7A953D19C7A30600B90CB4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A953C19C7A30600B90CB4 /* WelcomeViewController.swift */; };
+		DA7A953F19C7A89200B90CB4 /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A953E19C7A89200B90CB4 /* photoViewController.swift */; };
+		DA7A954119C7AB1100B90CB4 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A954019C7AB1100B90CB4 /* settingsViewController.swift */; };
+		DA7A954319C7B36300B90CB4 /* convoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A954219C7B36300B90CB4 /* convoViewController.swift */; };
 		DAFF356119C742FC0097E984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF356019C742FC0097E984 /* AppDelegate.swift */; };
 		DAFF356319C742FC0097E984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF356219C742FC0097E984 /* ViewController.swift */; };
-		DAFF356619C742FC0097E984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFF356419C742FC0097E984 /* Main.storyboard */; };
 		DAFF356819C742FC0097E984 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFF356719C742FC0097E984 /* Images.xcassets */; };
 		DAFF357419C742FC0097E984 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF357319C742FC0097E984 /* DropboxTests.swift */; };
+		DAFF357F19C7454E0097E984 /* LoginInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF357E19C7454E0097E984 /* LoginInitViewController.swift */; };
+		DAFF358119C7528A0097E984 /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF358019C7528A0097E984 /* LoginFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA7A953C19C7A30600B90CB4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DA7A953E19C7A89200B90CB4 /* photoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
+		DA7A954019C7AB1100B90CB4 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		DA7A954219C7B36300B90CB4 /* convoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convoViewController.swift; sourceTree = "<group>"; };
 		DAFF355B19C742FC0097E984 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFF355F19C742FC0097E984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFF356019C742FC0097E984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFF356219C742FC0097E984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAFF356519C742FC0097E984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAFF356719C742FC0097E984 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DAFF356D19C742FC0097E984 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFF357219C742FC0097E984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFF357319C742FC0097E984 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		DAFF357E19C7454E0097E984 /* LoginInitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInitViewController.swift; sourceTree = "<group>"; };
+		DAFF358019C7528A0097E984 /* LoginFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +85,9 @@
 		DAFF355D19C742FC0097E984 /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				DAFF357D19C745380097E984 /* ViewControllers */,
 				DAFF356019C742FC0097E984 /* AppDelegate.swift */,
 				DAFF356219C742FC0097E984 /* ViewController.swift */,
-				DAFF356419C742FC0097E984 /* Main.storyboard */,
 				DAFF356719C742FC0097E984 /* Images.xcassets */,
 				DAFF355E19C742FC0097E984 /* Supporting Files */,
 			);
@@ -107,6 +117,19 @@
 				DAFF357219C742FC0097E984 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAFF357D19C745380097E984 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAFF357E19C7454E0097E984 /* LoginInitViewController.swift */,
+				DAFF358019C7528A0097E984 /* LoginFormViewController.swift */,
+				DA7A953C19C7A30600B90CB4 /* WelcomeViewController.swift */,
+				DA7A953E19C7A89200B90CB4 /* photoViewController.swift */,
+				DA7A954019C7AB1100B90CB4 /* settingsViewController.swift */,
+				DA7A954219C7B36300B90CB4 /* convoViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFF356619C742FC0097E984 /* Main.storyboard in Resources */,
 				DAFF356819C742FC0097E984 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7A954319C7B36300B90CB4 /* convoViewController.swift in Sources */,
+				DAFF358119C7528A0097E984 /* LoginFormViewController.swift in Sources */,
+				DA7A953F19C7A89200B90CB4 /* photoViewController.swift in Sources */,
+				DA7A953D19C7A30600B90CB4 /* WelcomeViewController.swift in Sources */,
 				DAFF356319C742FC0097E984 /* ViewController.swift in Sources */,
+				DAFF357F19C7454E0097E984 /* LoginInitViewController.swift in Sources */,
 				DAFF356119C742FC0097E984 /* AppDelegate.swift in Sources */,
+				DA7A954119C7AB1100B90CB4 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +258,6 @@
 			targetProxy = DAFF356E19C742FC0097E984 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DAFF356419C742FC0097E984 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAFF356519C742FC0097E984 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DAFF357519C742FC0097E984 /* Debug */ = {
@@ -395,6 +412,7 @@
 				DAFF357919C742FC0097E984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAFF357A19C742FC0097E984 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +421,7 @@
 				DAFF357C19C742FC0097E984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
